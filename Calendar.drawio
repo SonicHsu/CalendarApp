@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.3">
   <diagram name="第 1 页" id="USlt-ebU2UT2KrD9safG">
-    <mxGraphModel dx="3722" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5790" dy="2222" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,7 +51,7 @@
           <mxGeometry x="-1000" y="460" width="300" height="130" as="geometry" />
         </mxCell>
         <mxCell id="z7_K39nhA1320Lir9eoi-25" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;calendar.js&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0E52EC;" vertex="1" parent="1">
-          <mxGeometry x="-280" y="240" width="130" height="40" as="geometry" />
+          <mxGeometry x="-270" y="240" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="z7_K39nhA1320Lir9eoi-26" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;month-calendar.js&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0E52EC;" vertex="1" parent="1">
           <mxGeometry x="-690" y="390" width="190" height="40" as="geometry" />
@@ -69,7 +69,47 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z7_K39nhA1320Lir9eoi-32" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;創建事件按鈕&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;&lt;font style=&quot;color: rgb(255, 255, 255); font-size: 24px;&quot;&gt;initEventCreateButtons&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;會因為點到的日期&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;預設創建日期會變&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=none;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="510" y="255" width="340" height="130" as="geometry" />
+          <mxGeometry x="500" y="490" width="340" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="z7_K39nhA1320Lir9eoi-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="z7_K39nhA1320Lir9eoi-34" target="z7_K39nhA1320Lir9eoi-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="405" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z7_K39nhA1320Lir9eoi-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="z7_K39nhA1320Lir9eoi-34" target="z7_K39nhA1320Lir9eoi-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z7_K39nhA1320Lir9eoi-34" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;刪除事件按鈕&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;&lt;font style=&quot;color: rgb(255, 255, 255); font-size: 24px;&quot;&gt;initEventDeleteDialog&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=none;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="880" y="490" width="340" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="z7_K39nhA1320Lir9eoi-37" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 24px; white-space: pre;&quot;&gt;(data-dialog=${name})看進來的哪種對話框&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 24px; white-space: pre;&quot;&gt;並給那種對話框 三種關閉方式&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;&lt;font style=&quot;color: rgb(255, 255, 255); font-size: 24px;&quot;&gt;initDialog&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=none;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="790" y="700" width="520" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="z7_K39nhA1320Lir9eoi-38" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;dialog.js&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0E52EC;" vertex="1" parent="1">
+          <mxGeometry x="795" y="660" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z7_K39nhA1320Lir9eoi-39" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;event-delete-dialog.js&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0E52EC;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="450" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z7_K39nhA1320Lir9eoi-40" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;event-create-button.js&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0E52EC;" vertex="1" parent="1">
+          <mxGeometry x="425" y="450" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z7_K39nhA1320Lir9eoi-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="z7_K39nhA1320Lir9eoi-41" target="z7_K39nhA1320Lir9eoi-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="405" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z7_K39nhA1320Lir9eoi-41" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;事件內容按鈕&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;&lt;font style=&quot;color: rgb(255, 255, 255); font-size: 24px;&quot;&gt;initEventDetailsDialog&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=none;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="490" width="340" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="z7_K39nhA1320Lir9eoi-42" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;event-details.dialog.js&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0E52EC;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="450" width="230" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
